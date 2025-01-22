@@ -9,6 +9,8 @@ public class MedicoController {
 
     @PostMapping
     public void cadastrar( @RequestBody DadosCadastroMedicos json) {
+        // salvando no mysql com spring jpa
+
         System.out.println(json);
     }
 }
